@@ -17,7 +17,7 @@ body {
 
 .bottom-nav {
   position: sticky;
-  top:0;
+  top: 0;
   overflow: hidden;
   border-bottom: 5px solid #aaa;
   background-color: #fff;
@@ -32,8 +32,8 @@ body {
   color: #aaa;
 }
 
-.bottom-nav a:hover{
-  color:#000;
+.bottom-nav a:hover {
+  color: #000;
 }
 
 header {
@@ -229,7 +229,7 @@ header {
   height: 200px;
 }
 
-.fun-div-body :nth-child(3) {
+.fun-div-body:nth-child(3) {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
   padding-top: 10px;
 }
@@ -357,7 +357,7 @@ header {
   background-color: #333;
   padding: 15px;
   border-radius: 50%;
-  margin: 10px 10px;
+  margin: 10px;
 }
 
 .footer-bottom {
