@@ -467,7 +467,19 @@ header {
     height: 280px;
   }
 
-  .header-div1, .header-div2-1, .header-div2-2 {
+  .header-div1 {
+    width: 100%;
+    height: 140px;
+    margin: 10px 0;
+  }
+
+  .header-div2-1 {
+    width: 100%;
+    height: 140px;
+    margin: 10px 0;
+  }
+
+  .header-div2-2 {
     width: 100%;
     height: 140px;
     margin: 10px 0;
