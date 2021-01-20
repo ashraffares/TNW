@@ -15,11 +15,15 @@ body {
   flex-direction: row;
 }
 
+.top-nav-logo{
+  display:none;
+}
+
 .bottom-nav {
   position: sticky;
   top: 0;
   overflow: hidden;
-  border-bottom: 5px solid #aaa;
+  border-bottom: 4px solid #aaa;
   background-color: #fff;
   padding: 15px;
   z-index: 99 !important;
@@ -38,11 +42,10 @@ body {
 
 header {
   width: 98%;
-  height: 470px;
   display: grid;
   grid-template-columns: 60% 40%;
-  grid-gap: 10px;
-  margin: auto;
+  grid-gap: 5px;
+  margin:0 auto;
 }
 
 .header-div1 {
@@ -55,21 +58,29 @@ header {
   background-size: cover;
 }
 
+.header-logo{
+  width:60%;
+  position:absolute;
+  top:10px;
+  left:10px
+}
+
 .header-div1 p {
   text-align: right;
 }
 
-.header-div2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.header-div1a{
+  text-decoration:none;
+  color:#fff;
+  font-size:45px;
+  font-weight: bolder;
 }
 
 .header-div1,
 .header-div2 {
+  height: 470px;
   color: #fff;
   position: relative;
-  height: 100%;
 }
 
 .header-content {
@@ -78,6 +89,19 @@ header {
   flex-direction: column;
   width: 100%;
   height: 48%;
+}
+
+.header-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-div2a{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  font-size:25px;
 }
 
 .header-div2-1 {
@@ -100,10 +124,14 @@ header {
   background-size: cover;
 }
 
+.header-text{
+  margin:7px 0;
+}
+
 .h-div-body {
   position: absolute;
-  bottom: 16px;
-  left: 16px;
+  bottom: 5px;
+  left: 10px;
 }
 
 .h-div-body span,
@@ -121,21 +149,12 @@ header {
   text-decoration: none;
 }
 
-.h-div-body h1 {
-  font-size: 50px;
-}
-
-.h-div-body h2 {
-  font-size: 29px;
-  font-weight: bolder;
-}
-
 .latest-section {
   width: 90%;
   margin: 60px auto;
 }
 
-.latest-section h2 {
+.latest-section h2{
   color: #f42;
 }
 
@@ -143,14 +162,18 @@ header {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 40px 0;
+  margin: auto;
 }
 
-.latest-news div {
+.latest-news-container {
   width: 25%;
   height: 30%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.latest-news-container div a:hover{
+  text-decoration: underline;
+  color:#f42;
 }
 
 .latest-news a {
@@ -262,8 +285,8 @@ header {
   width: 90%;
   display: grid;
   grid-template-columns: 32% 32% 32%;
-  grid-gap: 2.5%;
-  margin: 20px auto;
+  grid-gap:20px;
+  margin: auto;
 }
 
 .hardfork-div {
@@ -272,7 +295,7 @@ header {
   display: flex;
   flex: wrap;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .hardfork-div h1 {
@@ -288,8 +311,13 @@ header {
 .hardfork-div ul li {
   font-size: 14px;
   padding: 10px 0;
-  border-bottom: 0.5px solid #eee;
+  border-bottom: 1px solid #eee;
   margin-left: -19px;
+}
+
+.hardfork-div ul li a{
+  text-decoration: none;
+  color:#555;
 }
 
 .hardfork-div ul li::before {
@@ -316,6 +344,17 @@ header {
   margin-left: 5px;
 }
 
+.fork-body div a{
+  text-decoration: none;
+  color:#f42;
+}
+
+.fork-img{
+  width:75%;
+  height:70px;
+  margin-right:10px;
+}
+
 .hardfork-img {
   position: relative;
   background-image: linear-gradient(
@@ -336,6 +375,15 @@ header {
   bottom: 15px;
 }
 
+.hardfork-img-text a{
+  text-decoration: none;
+  color:#fff;
+}
+
+.gray, .gray a{
+  color:#aaa;
+}
+
 .hardfork-img-text h3 {
   font-family:sans-serif;
   line-height: 1.5rem;
@@ -343,7 +391,7 @@ header {
 
 .space {
   width: 100%;
-  height: 100px;
+  height: 10px;
 }
 
 .footer-section {
@@ -376,7 +424,7 @@ header {
   background-color: #333;
   padding: 15px;
   border-radius: 50%;
-  margin: 10px;
+  margin: 5px;
 }
 
 .footer-bottom {
@@ -397,4 +445,102 @@ header {
 
 .span-black {
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .top-nav {
+     display:none;
+  }
+
+  .top-nav-logo{
+    display: inline;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    font-size:20px;
+    background-color: #000;
+  }
+
+  .top-nav-logo img{
+    width:60px;
+  }
+
+
+  .bottom-nav{
+    margin:0;
+  }
+
+  .bottom-nava{
+    display: none;
+  }
+  
+  header{
+    grid-template-columns: 100%;
+    grid-gap: 0px;
+  }
+
+  .header-div2{
+    height:280px;
+  }
+
+  .header-div1, .header-div2-1 , .header-div2-2 {
+    width:100%;
+    height:140px;
+    margin:10px 0;
+  }
+
+  .header-logo{
+    display:none;
+  }
+
+  .latest-news-container{
+    width:100%;
+    display:grid;
+    grid-template-columns: 30% 70%;
+  }
+  
+  .latest-news div img {
+    height:90px;
+  }
+
+  .funding-main{
+    grid-template-columns: 100%;
+  }
+
+  .hardfork-section {
+    grid-template-columns: 100%;
+  }
+
+  .header-div1a{
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 1024px) and (min-width: 600px) {
+
+  .header-div1, .header-div2{
+    height:300px;
+  }
+
+  .latest-news-container {
+    width: 33%;
+  }
+
+  .rmfunding-div {
+    display:none;
+  }
+
+  .funding-main{
+    grid-template-columns: 32% 32% 32%;
+  }
+
+  .funding-div{
+    width:100%;
+  }
+
+  .hardfork-section{
+    grid-template-columns: 48% 48%;
+  }
 }
