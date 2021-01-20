@@ -33,9 +33,9 @@ Media querry
 
 👤 **Fares Ashraf**
 
--twitter:@Fares09301164
--GitHub: https://github.com/ashraffares/http-ashraffares.github.io-
--linkedin:https://www.linkedin.com/in/fares-ashraf-382a35176/
+-twitter:(@Fares09301164)
+-GitHub: (https://github.com/ashraffares/http-ashraffares.github.io-)
+-linkedin:(https://www.linkedin.com/in/fares-ashraf-382a35176/)
 
 ## Getting Started
 
