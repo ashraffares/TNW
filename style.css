@@ -49,7 +49,7 @@ header {
 }
 
 .header-div1 {
-  background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.349),rgb(0, 0, 0, 0.9) ),url("assets/h1.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.349), rgb(0, 0, 0, 0.9) ), url("assets/h1.jpg");
   background-size: cover;
 }
 
@@ -100,13 +100,12 @@ header {
 }
 
 .header-div2-1 {
-  background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.404),rgb(0, 0, 0, 0.9)),url("assets/h2.webp");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.404), rgb(0, 0, 0, 0.9)), url("assets/h2.webp");
   background-size: cover;
 }
 
 .header-div2-2 {
-  background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.404),rgb(0, 0, 0, 0.9)),
-    url("assets/h3.webp");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.404), rgb(0, 0, 0, 0.9)), url("assets/h3.webp");
   background-size: cover;
 }
 
