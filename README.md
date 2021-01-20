@@ -6,7 +6,7 @@ Clone of the The Next Web website page putting emphasis on how it behaves differ
 
 - HTML5
 - CSS
--Media querry
+- Media querry
 
 
 ## Live Demo
@@ -33,9 +33,9 @@ Media querry
 
 👤 **Fares Ashraf**
 
-twitter:(@Fares09301164)
-GitHub: (https://github.com/ashraffares/http-ashraffares.github.io-)
-linkedin:(https://www.linkedin.com/in/fares-ashraf-382a35176/)
+- twitter:https://twitter.com/Fares09301164
+- GitHub: https://github.com/ashraffares/http-ashraffares.github.io-
+- linkedin:https://www.linkedin.com/in/fares-ashraf-382a35176/
 
 ## Getting Started
 
