@@ -49,12 +49,7 @@ header {
 }
 
 .header-div1 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 0, 0, 0.349),
-      rgb(0, 0, 0, 0.9)
-    ),
-    url("assets/h1.jpg");
+  background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.349),rgb(0, 0, 0, 0.9) ),url("assets/h1.jpg");
   background-size: cover;
 }
 
@@ -105,21 +100,12 @@ header {
 }
 
 .header-div2-1 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 255, 0.404),
-      rgb(0, 0, 0, 0.9)
-    ),
-    url("assets/h2.webp");
+  background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.404),rgb(0, 0, 0, 0.9)),url("assets/h2.webp");
   background-size: cover;
 }
 
 .header-div2-2 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 255, 0.404),
-      rgb(0, 0, 0, 0.9)
-    ),
+  background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.404),rgb(0, 0, 0, 0.9)),
     url("assets/h3.webp");
   background-size: cover;
 }
@@ -357,11 +343,7 @@ header {
 
 .hardfork-img {
   position: relative;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(154, 154, 206, 0.52),
-      rgba(0, 0, 0, 0.73)
-    ),
+  background-image: linear-gradient(to bottom, rgba(154, 154, 206, 0.52), rgba(0, 0, 0, 0.73)),
     url("assets/h2.webp");
   background-size: cover;
   width: 100%;
@@ -484,9 +466,7 @@ header {
     height: 280px;
   }
 
-  .header-div1,
-  .header-div2-1,
-  .header-div2-2 {
+  .header-div1, .header-div2-1, .header-div2-2 {
     width: 100%;
     height: 140px;
     margin: 10px 0;
