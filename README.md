@@ -1,10 +1,5 @@
 ![TNW](https://user-images.githubusercontent.com/37639594/105220349-42c31000-5b60-11eb-9061-95509ac37a01.png)
 
-
-# TNW Clone Project
-
-![screenshot](./TNW.png)
-
 Clone of the The Next Web website page putting emphasis on how it behaves differently depending on the size of the screen.
 
 ## Built With
