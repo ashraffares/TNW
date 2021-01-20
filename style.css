@@ -288,7 +288,7 @@ header {
 .hardfork-div ul li {
   font-size: 14px;
   padding: 10px 0;
-  border-bottom: 1px solid #555;
+  border-bottom: 0.5px solid #eee;
   margin-left: -19px;
 }
 
