@@ -70,6 +70,14 @@ body {
   color: #f42;
 }
 
+.latest-news a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
 .fork-body div a {
   text-decoration: none;
   color: #f42;
@@ -77,6 +85,10 @@ body {
 
 .latest-news div a {
   display: block;
+}
+
+.h-div-body span a {
+  text-decoration: none;
 }
 
 .hardfork-div ul li a {
@@ -178,10 +190,6 @@ header {
   font-weight: bolder;
 }
 
-.h-div-body span a {
-  text-decoration: none;
-}
-
 .latest-section {
   width: 90%;
   margin: 60px auto;
@@ -207,14 +215,6 @@ header {
 .latest-news-container div a:hover {
   text-decoration: underline;
   color: #f42;
-}
-
-.latest-news a {
-  text-decoration: none;
-  color: #000;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 5px 0;
 }
 
 .latest-news span {
