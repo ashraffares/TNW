@@ -54,9 +54,29 @@ body {
   padding-right: 10px;
 }
 
+.hardfork-img-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.funding-header a {
+  text-decoration: none;
+  color: #f42;
+}
+
 .fork-body div a {
   text-decoration: none;
   color: #f42;
+}
+
+.latest-news div a {
+  display: block;
 }
 
 .hardfork-div ul li a {
@@ -213,21 +233,12 @@ header {
   height: 145px;
 }
 
-.latest-news div a {
-  display: block;
-}
-
 .funding-header {
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px auto;
-}
-
-.funding-header a {
-  text-decoration: none;
-  color: #f42;
 }
 
 .funding-headera-between {
@@ -352,12 +363,6 @@ header {
   margin-left: 5px;
 }
 
-.footer-bottom a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 15px;
-}
-
 .fork-img {
   width: 75%;
   height: 70px;
@@ -371,11 +376,6 @@ header {
   background-size: cover;
   width: 100%;
   height: 250px;
-}
-
-.hardfork-img-text a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .gray {
