@@ -25,8 +25,8 @@ body {
   overflow: hidden;
   border-bottom: 4px solid #aaa;
   background-color: #fff;
-  padding: 15px;
   z-index: 99 !important;
+  padding:10px;
 }
 
 .top-nav a,
@@ -104,6 +104,10 @@ body {
 
 .bottom-nav a:hover {
   color: #000;
+}
+
+.burgermenu{
+  display: none;
 }
 
 header {
@@ -399,6 +403,7 @@ header {
 }
 
 .footer-top {
+  float:right;
   background-color: #131313;
   color: #aaa;
   padding: 45px 0;
@@ -456,6 +461,14 @@ header {
 
   .bottom-nava {
     display: none;
+  }
+
+  .burgermenu {
+    display: inline-block;
+  }
+
+  .burgermenu i {
+    color: #f42;
   }
 
   header {
