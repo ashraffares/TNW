@@ -26,7 +26,7 @@ body {
   border-bottom: 4px solid #aaa;
   background-color: #fff;
   z-index: 99 !important;
-  padding:10px;
+  padding: 10px;
 }
 
 .top-nav a,
@@ -106,7 +106,7 @@ body {
   color: #000;
 }
 
-.burgermenu{
+.burgermenu {
   display: none;
 }
 
@@ -403,7 +403,7 @@ header {
 }
 
 .footer-top {
-  float:right;
+  float: right;
   background-color: #131313;
   color: #aaa;
   padding: 45px 0;
