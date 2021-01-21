@@ -529,7 +529,7 @@ header {
   .header-logo {
     display: none;
   }
-  
+
   .header-div1a {
     font-size: 35px;
   }
@@ -553,7 +553,6 @@ header {
     font-size: 17px;
   }
 }
-
 
 @media (max-width: 1024px) and (min-width: 600px) {
   .header-div1,
