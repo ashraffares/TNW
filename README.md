@@ -26,7 +26,9 @@ CSS flex property.
 CSS grid property.
 Media querry
 
-
+Linters
+- run npm install.
+- run npm run test to check the Html and Css files.
 
 
 ## Authors
